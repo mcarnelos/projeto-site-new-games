@@ -1,0 +1,23 @@
+/*CSS*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #8BAAD9;
+}
+
+#container {
+	border: 1px solid white;
+	width: 900px;
+	height: 900px;
+	margin: 0 auto;
+}
+
+#topo {
+	border: 1px solid white;
+	height: 200px;
+	background: #152349 url(../imagens/logo.png) no-repeat left;
+}
