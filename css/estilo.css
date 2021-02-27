@@ -18,6 +18,63 @@ body{
 
 #topo {
 	border: 1px solid white;
-	height: 200px;
+	height: 150px;
 	background: #152349 url(../imagens/logo.png) no-repeat left;
+	color: #fff;
+}
+
+#menu-superior ul {
+	float: right;
+}
+
+#menu-superior ul li {
+	list-style: none;
+	float: left;
+	margin-top: 110px;
+	padding-right: 40px;
+	cursor: pointer;
+}
+
+.imagem-principal {
+	margin: 5px;
+	border: 2px solid white;
+}
+
+#descricao-imagem{
+	font-size: 0.8em;
+	float: right;
+	margin-right: 300px;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	padding: 5px 20px;
+	border: 1px solid white;
+	display: block;
+}
+
+#descricao-imagem h1 {
+	font-size: 0.9em;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.menu-inferior h3 {
+	font-size: 0.8em;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+.imagem-inferior {
+	float: left;
+	margin: 10px 0px 10px 5px;
+
+}
+
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+
 }
