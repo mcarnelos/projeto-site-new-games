@@ -9,6 +9,13 @@ body{
 	background: #8BAAD9;
 }
 
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
 #container {
 	border: 1px solid white;
 	width: 900px;
@@ -35,20 +42,22 @@ body{
 	cursor: pointer;
 }
 
+/***Imagem principal ***/
+
 .imagem-principal {
+	float: right;
 	margin: 5px;
 	border: 2px solid white;
+	
 }
 
 #descricao-imagem{
 	font-size: 0.8em;
-	float: right;
-	margin-right: 300px;
-	margin-left: 5px;
-	margin-bottom: 10px;
+	float: left;
+	width: 700px;
 	padding: 5px 20px;
 	border: 1px solid white;
-	display: block;
+	
 }
 
 #descricao-imagem h1 {
@@ -57,19 +66,47 @@ body{
 	text-align: left;
 }
 
-.menu-inferior h3 {
+/***Menu lateral***/
+
+#menu-lateral li{
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	height: 80px;
+	width: 250px;
+	margin-top: 10px;
+}
+
+#menu-lateral li a img{
+	float: left;
+	margin: 5px;
+}
+
+#menu-lateral li a {
+	text-decoration: none;
+}
+
+#menu-lateral li a h3 {
 	font-size: 0.8em;
-	float: left;
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-left: 5px;
+	padding-top: 5px;
 }
 
-.imagem-inferior {
-	float: left;
-	margin: 10px 0px 10px 5px;
-
+#menu-lateral li a p {
+	font-size: 0.7em;
 }
+
+#menu-lateral li:hover {
+	background: #eee;
+	cursor: pointer;
+}
+
+#menu-lateral h2 {
+	background: #fff;
+	text-align: center;
+	width: 255px;
+}
+
+
+/***Rodapé***/
 
 #rodape{
 	clear: both;
