@@ -24,7 +24,7 @@ ul {
 }
 
 #topo {
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	height: 150px;
 	background: #152349 url(../imagens/logo.png) no-repeat left;
 	color: #fff;
@@ -51,21 +51,6 @@ ul {
 	
 }
 
-#descricao-imagem{
-	font-size: 0.8em;
-	float: left;
-	width: 700px;
-	padding: 5px 20px;
-	border: 1px solid white;
-	
-}
-
-#descricao-imagem h1 {
-	font-size: 0.9em;
-	padding-bottom: 10px;
-	text-align: left;
-}
-
 /***Menu lateral***/
 
 #menu-lateral li{
@@ -83,11 +68,13 @@ ul {
 
 #menu-lateral li a {
 	text-decoration: none;
+	color: #0404B4;
 }
 
 #menu-lateral li a h3 {
 	font-size: 0.8em;
 	padding-top: 5px;
+	color: #000;
 }
 
 #menu-lateral li a p {
@@ -105,6 +92,51 @@ ul {
 	width: 255px;
 }
 
+/***Conteudo inferior***/
+
+#conteudo-inferior {
+	width: 900px;
+	margin-top: 10px;
+}
+
+#conteudo-inferior h2 {
+	margin-top: 10px;
+	background: #fff;
+	text-align: center;
+}
+
+#conteudo-inferior h3 {
+	width: 200px;
+	font-size: 0.9em;
+}
+
+#conteudo-inferior p {
+	width: 200px;
+	font-size: 0.8em;
+	text-align: justify;
+	margin-top: 5px;
+}
+
+/***Colunas um, dois e tres***/
+
+#coluna-um, 
+#coluna-dois, 
+#coluna-tres,
+#coluna-quatro {
+	float: left;
+	margin: 10px;
+}
+
+.link {
+	font-size: 0.8em;
+}
+
+/***Imagem inferior***/
+
+.imagem-inferior {
+	border: 2px solid white;
+
+}
 
 /***Rodapé***/
 
